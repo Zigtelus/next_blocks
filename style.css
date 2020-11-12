@@ -1,0 +1,21 @@
+
+
+.tabs-collection {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 5px;
+}
+
+.tabs-collection__item {
+  padding: 5px;
+  border: 1px solid #282828;
+  grid-column: span 1;
+}
+
+.tabs-collection__item {
+  display: none;
+}
+
+.buttons {
+  margin: 10px;
+}
